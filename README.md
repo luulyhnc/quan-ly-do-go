@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Không có `.env.local`, chọn **Vào bản demo local**. Demo lưu trong localStorage. Muốn dùng Supabase, sao chép `.env.example` thành `.env.local` và chỉ điền **anon/publishable key**; tuyệt đối không đưa service-role key vào frontend.
+Không có `.env.local`, chọn **Vào bản demo local**. Demo lưu trong localStorage. Bản GitHub Pages dùng Supabase Auth + Realtime để đồng bộ dữ liệu giữa các máy. Chỉ anon/publishable key được phép ở frontend; tuyệt đối không đưa service-role key vào repo.
 
 ## Supabase
 

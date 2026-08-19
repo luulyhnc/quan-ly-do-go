@@ -15,8 +15,8 @@ jobs:
       - run: npm run lint
       - run: npm run build
         env:
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+          VITE_SUPABASE_URL: https://jxkkdklytftuoeotqubj.supabase.co
+          VITE_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4a2tka2x5dGZ0dW9lb3RxdWJqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcxMjI0MTUsImV4cCI6MjEwMjY5ODQxNX0.EZ7N1ILjE4ycy3jqcOVQOq5PrD3d8H3viunWh_Q_h6M
           VITE_BASE_PATH: /quan-ly-do-go/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
