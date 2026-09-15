@@ -1,4 +1,4 @@
--- Backend đồng bộ đang dùng trong dự án Supabase sua-hat-manager.
+-- Backend đồng bộ dùng chung trong dự án Supabase mahi-manager.
 -- Bảng có tiền tố wood_ để tách hoàn toàn dữ liệu hai ứng dụng.
 create table if not exists public.wood_profiles (
   id uuid primary key references auth.users(id) on delete cascade,
